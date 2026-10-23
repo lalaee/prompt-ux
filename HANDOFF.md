@@ -16,7 +16,7 @@ The user (Olalekan Isaac, a product/UX designer) wants to speak at **prompt:UX 2
 | User picks a topic | Done: **"Figma to agent and back"** (option 4) |
 | Full abstract and talk outline for the chosen topic | **Not started** |
 | Email to the event director | **Not drafted, not sent** |
-| Slides | Done: 16 slides in Figma with the ZEOS One case, see below |
+| Slides and pitch | Done in Figma, with study-project placeholders, see below |
 | Bio, demo | Not started |
 
 ## Blocker: the speaker slots are closed
@@ -59,19 +59,19 @@ Never send email for the user. Draft it and let them send it.
 - `tracing-raster-art`: rebuilds icons that only exist as images as accurate vectors
 - A related local project: `~/Downloads/Code/Prompt-alone-framer-fidelity-exporter`
 
-The case is the ZEOS One work in `lalaee/zd`; the live demo uses a personal study project the user hasn't named yet.
+The case and the live demo use a personal study project the user hasn't named yet (placeholders in the deck).
 
 ## Slide deck (23 Oct 2026)
 
-Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Zalando Wintersports LAAX file), page **"🎤 Talk: Figma to agent and back"**, section "Slides".
+Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Zalando Wintersports LAAX file), page **"🎤 Talk: Figma to agent and back"**.
 
-- 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case (ZEOS One), the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
-- **Use case: the user's ZEOS One work in https://github.com/lalaee/zd** (private). **The live demo is not ZEOS:** it runs on a personal study project of the user's (name and screen still to come). Slide 15 and the pitch's approach slide say so; their demo steps are generic (Extract, Build, Check, Push back, Add a rule). The drift examples, numbers (5 libraries, 2,835 variants, 110 semantic colours, 46 playground screens, 31 wireframes), commands, the validator rules and the rules table all come from that repo's `README.md`, `docs/agent-summary.md`, `design-system/zeos/` and the `zeos-screen` / `zeos-to-figma` / `copy-lint` skills.
-- Slides 05, 09 and 15 show **neutral wireframe placeholders** (editable frames tagged "Placeholder screenshot"), not real ZEOS screens, until Zalando approves showing them. The real screenshots to swap in are in `zd/playground/docs/figma-next-steps/` (`1-viewer.png`, `4-figma-vs-playground.png`).
-- **Pitch section** (section "Pitch", below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards and the lineup gap, P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways. It calls the case "a merchant portal" and doesn't name ZEOS. Each "why now" card has a linked source line underneath.
+- Section "Slides": 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case, the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
+- Section "Pitch" (below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards (each with a "Source" link), P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways.
+- **No ZEOS or Zalando work content.** The user asked to remove ZEOS One completely. The case and the live demo are a **personal study project of the user's, not yet named**. Everything about it is a placeholder: `[Study project]`, `[n]` stats on the case slide and Step 01, the "Placeholder screenshot" / "Study project screenshot" frames on slides 05, 09 and 15, and `/screen [a request from the study project]` on Step 02. The drift examples, rules and code samples are generic examples (tokens.json example, `@ds` imports, Button / Card / Table mapping).
+- The ZEOS material in `lalaee/zd` is no longer used. Don't bring it back without asking.
 - Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
 - **Deck style only** comes from the Wintersports toolkit: layout, colours (black, off-black #2A2C31, orange #FF4C00), Zalando Sans (open source) and carving lines. No Zalando logo, play mark or campaign content.
-- Open: ZEOS One is an internal Zalando product. The slide text still names ZEOS One and quotes numbers, commands and file names from the repo; check those with Zalando too. The website or LinkedIn link on the thank-you slide is still a placeholder.
+- Still to fill: the study project (name, one-line description, numbers, screenshots, the demo screen) and the website or LinkedIn link on the thank-you slide.
 
 ## Supporting evidence (details in `talk-proposal.md`)
 
@@ -81,7 +81,7 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 ## Next steps for the next agent
 
-1. Ask the user for the personal study project the demo runs on (name, link, the screen to use), then replace the placeholder on slide 15. Still ask for results such as time saved per screen.
+1. Ask the user for the personal study project (name, link, numbers, screenshots, the demo screen), then fill every `[Study project]` and `[n]` placeholder. Still ask for results such as time saved per screen.
 2. Write a full ~150-word abstract, a 30–40 minute talk outline (sections with timings), and a short speaker bio. Put them in `talk-proposal.md` or a new `figma-to-agent-talk.md`.
 3. Draft the email to Luciano Lykkebo (backup or next-edition pitch, abstract included). Save it as `email-draft.md`. Don't send it.
 4. Later: slides and a recorded demo of one screen going round the full loop.
