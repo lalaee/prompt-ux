@@ -88,4 +88,6 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 ## Writing style the user expects
 
-Plain, direct language. Avoid AI-writing tells: em dashes in copy, "not X but Y" constructions, groups of three, and words like "delve" or "seamless".
+Plain, direct language. Avoid AI-writing tells: em dashes in copy, "not X but Y" constructions, groups of three, and words like "delve" or "seamless". No dots used as decoration or separators (no "·", no "…", no full stop after a headline or label).
+
+Check slide copy with the `copy-lint` skill from `lalaee/zd` (`.claude/skills/copy-lint/`): dump the page text with `figma/dump.js`, then pipe the lines to `node scripts/lint.mjs -`. The linter is a prompt for judgement; its group-of-three rule has false positives.
