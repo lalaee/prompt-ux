@@ -59,7 +59,7 @@ Never send email for the user. Draft it and let them send it.
 - `tracing-raster-art`: rebuilds icons that only exist as images as accurate vectors
 - A related local project: `~/Downloads/Code/Prompt-alone-framer-fidelity-exporter`
 
-The case and the live demo use a personal study project the user hasn't named yet (placeholders in the deck).
+The case and the live demo use a project showcase the user hasn't named yet (placeholders in the deck).
 
 ## Slide deck (23 Oct 2026)
 
@@ -67,11 +67,11 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 - Section "Slides": 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case, the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
 - Section "Pitch" (below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards (each with a "Source" link), P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways.
-- **No ZEOS or Zalando work content.** The user asked to remove ZEOS One completely. The case and the live demo are a **personal study project of the user's, not yet named**. Everything about it is a placeholder: `[Study project]`, `[n]` stats on the case slide and Step 01, the "Placeholder screenshot" / "Study project screenshot" frames on slides 05, 09 and 15, and `/screen [a request from the study project]` on Step 02. The drift examples, rules and code samples are generic examples (tokens.json example, `@ds` imports, Button / Card / Table mapping).
+- **No ZEOS or Zalando work content.** The user asked to remove ZEOS One completely. The case and the live demo are a **project showcase of the user's, not yet named**. Everything about it is a placeholder: `[Project showcase]`, `[n]` stats on the case slide and Step 01, the "Placeholder screenshot" / "Project showcase screenshot" frames on slides 05, 09 and 15, and `/screen [a request from the project showcase]` on Step 02. The drift examples, rules and code samples are generic examples (tokens.json example, `@ds` imports, Button / Card / Table mapping).
 - The ZEOS material in `lalaee/zd` is no longer used. Don't bring it back without asking.
 - Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
 - **Deck style only** comes from the Wintersports toolkit: layout, colours (black, off-black #2A2C31, orange #FF4C00), Zalando Sans (open source) and carving lines. No Zalando logo, play mark or campaign content.
-- Still to fill: the study project (name, one-line description, numbers, screenshots, the demo screen) and the website or LinkedIn link on the thank-you slide.
+- Still to fill: the project showcase (name, one-line description, numbers, screenshots, the demo screen) and the website or LinkedIn link on the thank-you slide.
 
 ## Supporting evidence (details in `talk-proposal.md`)
 
@@ -81,13 +81,13 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 ## Next steps for the next agent
 
-1. Ask the user for the personal study project (name, link, numbers, screenshots, the demo screen), then fill every `[Study project]` and `[n]` placeholder. Still ask for results such as time saved per screen.
+1. Ask the user for the project showcase (name, link, numbers, screenshots, the demo screen), then fill every `[Project showcase]` and `[n]` placeholder. Still ask for results such as time saved per screen.
 2. Write a full ~150-word abstract, a 30–40 minute talk outline (sections with timings), and a short speaker bio. Put them in `talk-proposal.md` or a new `figma-to-agent-talk.md`.
 3. Draft the email to Luciano Lykkebo (backup or next-edition pitch, abstract included). Save it as `email-draft.md`. Don't send it.
 4. Later: slides and a recorded demo of one screen going round the full loop.
 
 ## Writing style the user expects
 
-Plain, direct language. Avoid AI-writing tells: em dashes in copy, "not X but Y" constructions, groups of three, and words like "delve" or "seamless". No dots used as decoration or separators (no "·", no "…", no full stop after a headline or label).
+Plain, direct language. Call the case and demo the "project showcase", never "personal project" or "study project". Avoid AI-writing tells: em dashes in copy, "not X but Y" constructions, groups of three, and words like "delve" or "seamless". No dots used as decoration or separators (no "·", no "…", no full stop after a headline or label).
 
 Check slide copy with the `copy-lint` skill from `lalaee/zd` (`.claude/skills/copy-lint/`): dump the page text with `figma/dump.js`, then pipe the lines to `node scripts/lint.mjs -`. The linter is a prompt for judgement; its group-of-three rule has false positives.
