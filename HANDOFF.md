@@ -16,7 +16,8 @@ The user (Olalekan Isaac, a product/UX designer) wants to speak at **prompt:UX 2
 | User picks a topic | Done: **"Figma to agent and back"** (option 4) |
 | Full abstract and talk outline for the chosen topic | **Not started** |
 | Email to the event director | **Not drafted, not sent** |
-| Bio, slides, demo | Not started |
+| Slides (first draft) | Done: 14 slides in Figma, see below |
+| Bio, demo | Not started |
 
 ## Blocker: the speaker slots are closed
 
@@ -59,6 +60,15 @@ Never send email for the user. Draft it and let them send it.
 - A related local project: `~/Downloads/Code/Prompt-alone-framer-fidelity-exporter`
 
 Ask the user which real project and screen to use for the demo before inventing one.
+
+## Slide deck (first draft, 23 Oct 2026)
+
+Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Zalando Wintersports LAAX file), page **"🎤 Talk: Figma to agent and back"**, section "Slides".
+
+- 14 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the loop, steps 01 to 05, "Measure, don't guess", takeaways, live demo, thank you.
+- Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
+- **Style only**, as the user chose: the layout, grid, colours (black, off-black #2A2C31, orange #FF4C00), Zalando Sans (open source) and carving-line graphics are borrowed from the toolkit. There is no Zalando logo, play mark, photography or internal content. Keep it that way for a public talk.
+- Placeholders to fill: the demo project and screen (slide 13), and the website or LinkedIn link on the thank-you slide (slide 14).
 
 ## Supporting evidence (details in `talk-proposal.md`)
 
