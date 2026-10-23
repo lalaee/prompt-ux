@@ -67,10 +67,10 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 - 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case (ZEOS One), the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
 - **Use case and demo: the user's ZEOS One work in https://github.com/lalaee/zd** (private). The drift examples, numbers (5 libraries, 2,835 variants, 110 semantic colours, 46 playground screens, 31 wireframes), commands, the validator rules and the rules table all come from that repo's `README.md`, `docs/agent-summary.md`, `design-system/zeos/` and the `zeos-screen` / `zeos-to-figma` / `copy-lint` skills.
-- Screenshots on slides 05, 09 and 15 come from `zd/playground/docs/figma-next-steps/` (`1-viewer.png`, `4-figma-vs-playground.png`).
+- Slides 05, 09 and 15 show **neutral wireframe placeholders** (editable frames tagged "Placeholder screenshot"), not real ZEOS screens, until Zalando approves showing them. The real screenshots to swap in are in `zd/playground/docs/figma-next-steps/` (`1-viewer.png`, `4-figma-vs-playground.png`).
 - Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
 - **Deck style only** comes from the Wintersports toolkit: layout, colours (black, off-black #2A2C31, orange #FF4C00), Zalando Sans (open source) and carving lines. No Zalando logo, play mark or campaign content.
-- Open: ZEOS One is an internal Zalando product, so the user needs approval before showing it publicly. The website or LinkedIn link on the thank-you slide is still a placeholder.
+- Open: ZEOS One is an internal Zalando product. The slide text still names ZEOS One and quotes numbers, commands and file names from the repo; check those with Zalando too. The website or LinkedIn link on the thank-you slide is still a placeholder.
 
 ## Supporting evidence (details in `talk-proposal.md`)
 
