@@ -68,7 +68,7 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 - 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case (ZEOS One), the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
 - **Use case and demo: the user's ZEOS One work in https://github.com/lalaee/zd** (private). The drift examples, numbers (5 libraries, 2,835 variants, 110 semantic colours, 46 playground screens, 31 wireframes), commands, the validator rules and the rules table all come from that repo's `README.md`, `docs/agent-summary.md`, `design-system/zeos/` and the `zeos-screen` / `zeos-to-figma` / `copy-lint` skills.
 - Slides 05, 09 and 15 show **neutral wireframe placeholders** (editable frames tagged "Placeholder screenshot"), not real ZEOS screens, until Zalando approves showing them. The real screenshots to swap in are in `zd/playground/docs/figma-next-steps/` (`1-viewer.png`, `4-figma-vs-playground.png`).
-- **Pitch section** (section "Pitch", below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards and the lineup gap, P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways. It calls the case "a merchant portal" and doesn't name ZEOS.
+- **Pitch section** (section "Pitch", below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards and the lineup gap, P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways. It calls the case "a merchant portal" and doesn't name ZEOS. Each "why now" card has a linked source line underneath.
 - Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
 - **Deck style only** comes from the Wintersports toolkit: layout, colours (black, off-black #2A2C31, orange #FF4C00), Zalando Sans (open source) and carving lines. No Zalando logo, play mark or campaign content.
 - Open: ZEOS One is an internal Zalando product. The slide text still names ZEOS One and quotes numbers, commands and file names from the repo; check those with Zalando too. The website or LinkedIn link on the thank-you slide is still a placeholder.
@@ -77,7 +77,7 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 - YouTube 2026 videos on Claude Code + Figma MCP workflows for designers are common (for example "Claude Code + Figma Design System (Designer Workflow Test)" and "Design with Claude Code: The Designer's Guide").
 - Google Trends (worldwide, 12 months): "Claude Code" is the dominant tool term; "MCP server" peaked in June 2026; "prompt engineering" has collapsed to about 2/100.
-- Figma's 2026 AI report, as cited elsewhere: 51% of designers building AI products work on agents (up from 21%).
+- [Figma's 2026 AI report](https://www.figma.com/blog/2026-ai-report/) (24 Jun 2026): designers taking part in development rose from 21% to 41%. (The "51% work on agents" figure is unverified; don't use it.)
 
 ## Next steps for the next agent
 

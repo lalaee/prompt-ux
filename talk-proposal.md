@@ -32,7 +32,7 @@ The site's own framing is "AI skills for 2027", "advanced AI UX topics, concrete
 
 ## What the data says
 
-**Google Trends, worldwide, past 12 months**
+**Google Trends, worldwide, past 12 months** (checked 23 Oct 2026; reproduce with [Claude Code vs MCP server](https://trends.google.com/trends/explore?date=today%2012-m&q=Claude%20Code,MCP%20server) and [prompt engineering vs AI agent](https://trends.google.com/trends/explore?date=today%2012-m&q=prompt%20engineering,AI%20agent))
 
 - "prompt engineering" has collapsed. It peaked at 18 in Feb 2026 and is now 2 (on a scale where "AI agent" peaked at 100). A talk *about prompting* is now a dated pitch, even at a conference called prompt:UX.
 - "Claude Code" is by far the biggest term in the tool space. It peaked in late March 2026 and is still about 34.
@@ -50,8 +50,8 @@ The site's own framing is "AI skills for 2027", "advanced AI UX topics, concrete
 
 **Industry reports**
 
-- Lyssna's 2026 survey: about 60% of designers expect agents that act for users to have a major impact this year.
-- Figma's 2026 AI report, as cited by others: 51% of designers building AI products now work on agents, up from 21%.
+- [Lyssna, UX design trends 2026](https://www.lyssna.com/blog/ux-design-trends/): about 60% of designers expect agents that act for users to have a major impact this year.
+- [Figma's 2026 AI report](https://www.figma.com/blog/2026-ai-report/) (24 Jun 2026): designers taking part in development rose from 21% to 41%. An earlier note here said "51% of designers building AI products work on agents"; that figure could not be found in Figma's report, so don't use it.
 - The open-source "Taste Skill" (instruction files to make agents avoid the template look) passed 64,000 GitHub stars.
 
 ## Topic options
