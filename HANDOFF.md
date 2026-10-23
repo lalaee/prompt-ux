@@ -59,14 +59,14 @@ Never send email for the user. Draft it and let them send it.
 - `tracing-raster-art`: rebuilds icons that only exist as images as accurate vectors
 - A related local project: `~/Downloads/Code/Prompt-alone-framer-fidelity-exporter`
 
-The demo project is the ZEOS One work in `lalaee/zd` (see the slide deck section).
+The case is the ZEOS One work in `lalaee/zd`; the live demo uses a personal study project the user hasn't named yet.
 
 ## Slide deck (23 Oct 2026)
 
 Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Zalando Wintersports LAAX file), page **"🎤 Talk: Figma to agent and back"**, section "Slides".
 
 - 16 frames at 1920×1080: title, "Close enough isn't the design", drift, Figma goes stale, the case (ZEOS One), the loop, steps 01 to 03, "Measure, don't guess", steps 04 and 05, what doesn't work yet, takeaways, live demo, thank you.
-- **Use case and demo: the user's ZEOS One work in https://github.com/lalaee/zd** (private). The drift examples, numbers (5 libraries, 2,835 variants, 110 semantic colours, 46 playground screens, 31 wireframes), commands, the validator rules and the rules table all come from that repo's `README.md`, `docs/agent-summary.md`, `design-system/zeos/` and the `zeos-screen` / `zeos-to-figma` / `copy-lint` skills.
+- **Use case: the user's ZEOS One work in https://github.com/lalaee/zd** (private). **The live demo is not ZEOS:** it runs on a personal study project of the user's (name and screen still to come). Slide 15 and the pitch's approach slide say so; their demo steps are generic (Extract, Build, Check, Push back, Add a rule). The drift examples, numbers (5 libraries, 2,835 variants, 110 semantic colours, 46 playground screens, 31 wireframes), commands, the validator rules and the rules table all come from that repo's `README.md`, `docs/agent-summary.md`, `design-system/zeos/` and the `zeos-screen` / `zeos-to-figma` / `copy-lint` skills.
 - Slides 05, 09 and 15 show **neutral wireframe placeholders** (editable frames tagged "Placeholder screenshot"), not real ZEOS screens, until Zalando approves showing them. The real screenshots to swap in are in `zd/playground/docs/figma-next-steps/` (`1-viewer.png`, `4-figma-vs-playground.png`).
 - **Pitch section** (section "Pitch", below the slides): 4 frames for the organiser. P1 cover, P2 the pitch with "why now" trend cards and the lineup gap, P3 approach (35 minutes: problem 5, case 3, loop 15, still open 4, demo 6, takeaways 2), P4 takeaways. It calls the case "a merchant portal" and doesn't name ZEOS. Each "why now" card has a linked source line underneath.
 - Local components on the same page: `Slide chrome` (header/footer, Section text property) and `Card` (Number, Title, Body text properties).
@@ -81,7 +81,7 @@ Figma file: https://www.figma.com/design/rmhcA2eK2thS8TO9iYsnHn (a copy of the Z
 
 ## Next steps for the next agent
 
-1. Demo project chosen: ZEOS One (`lalaee/zd`). Still ask for results such as time saved per screen.
+1. Ask the user for the personal study project the demo runs on (name, link, the screen to use), then replace the placeholder on slide 15. Still ask for results such as time saved per screen.
 2. Write a full ~150-word abstract, a 30–40 minute talk outline (sections with timings), and a short speaker bio. Put them in `talk-proposal.md` or a new `figma-to-agent-talk.md`.
 3. Draft the email to Luciano Lykkebo (backup or next-edition pitch, abstract included). Save it as `email-draft.md`. Don't send it.
 4. Later: slides and a recorded demo of one screen going round the full loop.
