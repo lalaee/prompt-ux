@@ -16,7 +16,7 @@ The user (Olalekan Isaac, a product/UX designer) wants to speak at **prompt:UX 2
 | User picks a topic | Done: **"Figma to agent and back"** (option 4) |
 | Full abstract and talk outline for the chosen topic | **Not started** |
 | Email to the event director | **Not drafted, not sent** |
-| Slides and pitch | Done in Figma, with study-project placeholders, see below |
+| Slides and pitch | Done in Figma, with project showcase placeholders, see below |
 | Bio, demo | Not started |
 
 ## Blocker: the speaker slots are closed
